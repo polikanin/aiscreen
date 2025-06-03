@@ -1,0 +1,41 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://polikanin.github.io/aiscreen",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "tailwind": "tailwindcss init"
+  },
+  "dependencies": {
+    "autoprefixer": "^10",
+    "axios": "^1.9.0",
+    "lodash": "^4.17.21",
+    "pinia": "^3.0.2",
+    "postcss": "^8",
+    "tailwindcss": "^3",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.4",
+    "postcss-loader": "^8.1.1",
+    "sass": "^1.32.7",
+    "sass-loader": "^12.0.0",
+    "vue-cli-plugin-tailwind": "~3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
